@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My restaurent</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@200;500;600&display=swap" rel="stylesheet">
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="container">
+            <div class="logo">
+                <a href="" class="">
+                    <i class="fas fa-utensils"></i> Food
+                </a>
+            </div>
+            <ul class="nav-link" id="menu-btn">
+                <li class="nav-li">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#about">About</a>
+                </li>
+
+                <li class="nav-li">
+                    <a href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#menu">Menu</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#order">Order</a>
+                </li>
+            </ul>
+
+
+            <div class="fas fa-bars" id="menu-button" onclick="navigation()">
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- home -->
+    <section class="home" id="home">
+        <h1>DELICIOUS COOKING</h1>
+    </section>
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-img"><img src="imgs/about-img.png" alt=""></div>
+            <div class="about-right">
+                <h3 class="title">Welcome To Our restaurent</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi optio at, saepe accusamus dolorum, quos eos nesciunt amet exercitationem illum quis nostrum, repellat quaerat eum debitis fugit alias magnam omnis!</p>
+                <a href="" class="btn">Read More</a>
+                <div class="icons">
+                    <img src="imgs/about-icon-1.png" alt="food">
+                    <img src="imgs/about-icon-2.png" alt="food">
+                    <img src="imgs/about-icon-3.png" alt="food">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <header>
+                <p>Our Gallery</p>
+                <h3 class="title">Our untold stories</h3>
+            </header>
+            <div class="gallery-content">
+                <a class="box" href="imgs/food-galler-img-1.jpg">
+
+                    <img src="imgs/food-galler-img-1.jpg" alt="">
+                </a>
+                <a class="box" href="imgs/food-galler-img-2.jpg">
+
+                    <img src="imgs/food-galler-img-2.jpg" alt="">
+                </a>
+                <a class="box" href="imgs/food-galler-img-3.jpg">
+
+                    <img src="imgs/food-galler-img-3.jpg" alt="">
+                </a>
+                <a class="box" href="imgs/food-galler-img-4.jpg">
+
+                    <img src="imgs/food-galler-img-4.jpg" alt="">
+                </a>
+                <a class="box" href="imgs/food-galler-img-5.jpg">
+
+                    <img src="imgs/food-galler-img-5.jpg" alt="">
+                </a>
+                <a class="box" href="imgs/food-galler-img-6.jpg">
+
+                    <img src="imgs/food-galler-img-6.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+        <div class="container">
+
+            <header>
+                <p>our menu</p>
+                <h3 class="title">our popular dishes</h3>
+            </header>
+            <div class="swip-icon">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="swiper menu-slider">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide">
+
+                        <h3 class="menu-title">food type</h3>
+                        <div class="box-container">
+
+                            <div class="box">
+                                <div class="box-img">
+                                    <a href="">
+
+                                        <img src="imgs/food-galler-img-1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <h3>food name</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                                </div>
+                                <div class="price">$7</div>
+                            </div>
+                            <div class="box">
+                                <div class="box-img">
+                                    <a href="">
+
+                                        <img src="imgs/food-galler-img-2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <h3>food name</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                                </div>
+                                <div class="price">$8</div>
+                            </div>
+                            <div class="box">
+                                <div class="box-img">
+                                    <a href="">
+
+                                        <img src="imgs/food-galler-img-3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <h3>food name</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                                </div>
+                                <div class="price">$9</div>
+                            </div>
+                            <div class="box">
+                                <div class="box-img">
+                                    <a href="">
+
+                                        <img src="imgs/food-galler-img-4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <h3>food name</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                                </div>
+                                <div class="price">$10</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <h3 class="menu-title">food type</h3>
+                        <div class="box-container">
+                            <div class="box">
+                                <div class="box-img">
+                                    <a href="">
+
+                                        <img src="imgs/food-galler-img-5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <h3>food name</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                                </div>
+                                <div class="price">$5</div>
+                            </div>
+                            <div class="box">
+                                <div class="box-img">
+                                    <a href="">
+
+                                        <img src="imgs/food-galler-img-6.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <h3>food name</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                                </div>
+                                <div class="price">$6</div>
+                            </div>
+                            <div class="box">
+                                <div class="box-img">
+                                    <a href="">
+
+                                        <img src="imgs/food-galler-img-2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <h3>delicious lunch</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                                </div>
+                                <div class="price">$7</div>
+                            </div>
+                            <div class="box">
+                                <div class="box-img">
+                                    <a href="">
+
+                                        <img src="imgs/food-galler-img-1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="info">
+                                    <h3>delicious lunch</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                                </div>
+                                <div class="price">$8</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- order -->
+    <section class="order" id="order">
+        <div class="container">
+
+            <header>
+                <p>Order Now</p>
+                <h3 class="title">Fast Home Delivery</h3>
+            </header>
+            <div id="message" class="message"></div>
+            <form action="" name="myform" onsubmit="return validate()">
+                <div class="box-container">
+                    <div class="box">
+                        <div class="inputBox">
+                            <span>Full Name</span>
+                            <input type="text" name="full_name" placeholder="enter your name" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Food Name</span>
+                            <input type="text" name="food_name" placeholder="food you want" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Order Details</span>
+                            <input type="text" placeholder="specifics with food" name="specify">
+                        </div>
+                        <div class="inputBox">
+                            <span> Phone Number</span>
+                            <input type="number" name="phone_number" placeholder="12 345 678">
+                        </div>
+
+                        <div class="inputBox">
+                            <span>How Much</span>
+                            <input type="number" name="food_number" placeholder="how many you want">
+                        </div>
+                        <div class="inputBox">
+                            <span>When You Want</span>
+                            <input type="datetime-local">
+                        </div>
+                        <div class="inputBox">
+                            <span>Your Address</span>
+                            <input type="text" name="address" placeholder="enter your address">
+                        </div>
+
+                        <div class="inputBox"></div>
+                    </div>
+                    <input type="submit" name="submit" value="Order Now" class="submit">
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="icons-container">
+
+            <div class="icons">
+                <i class="fas fa-clock"></i>
+                <h3>opening hours</h3>
+                <p>07:00am to 10:00pm</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>phone</h3>
+                <p>+961 454 858 567</p>
+
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>email</h3>
+                <p>example@gmail.com</p>
+
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-map"></i>
+                <h3>address</h3>
+                <p>beirout, lebanon</p>
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+
+        </div>
+
+        <div class="credit"> created by <span>Ali Hamie</span> </div>
+
+    </section>
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
